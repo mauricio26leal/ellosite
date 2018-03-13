@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>Ello Tecnologia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Fechar Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64">
+      <img src="http://i66.tinypic.com/wkzs2.jpg" alt="Ello Tecnologia" style="width:100%">
+  </div>
+  <div class="w3-bar-block">
+    <a href="ello.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Home</a> 
+    <a href="sobre.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Sobre</a> 
+    <a href="ramos.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Ramos de Atuação</a> 
+    <a href="planos.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Planos</a> 
+    <a href="equipe.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Equipe</a> 
+    <a href="contato.HTML" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Contato</a>
+  </div>
+</nav>
+
+<!-- MENU LATERAL -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-orange w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Ello Tecnologia</span>
+</header>
+
+<!-- EFEITO MENU RESPONSIVO -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- CONTEÚDO DA PÁGINA -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="#home">
+    <h1 class="w3-jumbo"><b>Ello Tecnologia</b></h1>
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Equipe</b></h1>
+    <hr style="width:50px;border:5px solid black" class="w3-round">
+        <p>O trabalho em equipe é mais rico, forte e por isso capaz de alcançar as metas mais difíceis!
+           E graças a essa equipe que nossa organização ganha cada vez mais espaço no mercado.</p>
+  </div>
+  <!-- COLABORADORES -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i68.tinypic.com/2nqaclx.jpg" alt="Paulo" style="width:100%">
+        <div class="w3-container">
+          <h3>Paulo Triburtini</h3>
+          <p class="w3-opacity">Desenvolvedor e Programador</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i64.tinypic.com/28i6lbp.jpg" alt="Edenildo" style="width:100%">
+        <div class="w3-container">
+          <h3>Edenildo Bonifácio</h3>
+          <p class="w3-opacity">Suporte Técnico</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i66.tinypic.com/2sa05j7.jpg" alt="Clayton" style="width:100%">
+        <div class="w3-container">
+          <h3>Clayton Alves</h3>
+          <p class="w3-opacity">Desenvolvedor e Programador</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i64.tinypic.com/2hhn90o.jpg" alt="Bruno" style="width:100%">
+        <div class="w3-container">
+          <h3>Bruno Mendes</h3>
+          <p class="w3-opacity">Desenvolvedor e Programador</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i68.tinypic.com/2qn49og.jpg" alt="Ualisson" style="width:100%">
+        <div class="w3-container">
+          <h3>Ualisson Rossi</h3>
+          <p class="w3-opacity">Suporte Técnico</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://i67.tinypic.com/osgwms.jpg" alt="Mauricio" style="width:100%">
+        <div class="w3-container">
+          <h3>Mauricio Leal</h3>
+          <p class="w3-opacity">Suporte Técnico</p>
+          <p>Descrição em processamento... Aguarde.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="http://i66.tinypic.com/21dndrl.jpg" alt="Jonatan" style="width:100%">
+            <div class="w3-container">
+              <h3>Jonatan Rossi</h3>
+              <p class="w3-opacity">Prostituta</p>
+              <p>Descrição em processamento... Aguarde.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="http://i64.tinypic.com/2u792j7.jpg" alt="Vilma" style="width:100%">
+            <div class="w3-container">
+              <h3>Vilma Mendonça</h3>
+              <p class="w3-opacity">Departamento Financeiro</p>
+              <p>Descrição em processamento... Aguarde.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <img src="http://i63.tinypic.com/3534aqp.jpg" alt="Você" style="width:100%">
+            <div class="w3-container">
+              <h3>Você</h3>
+              <p class="w3-opacity">Colaborador</p>
+              <p>Descrição em processamento... Aguarde.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- SCRIPT OPEN AND CLOSE MENU LATERA -->
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+     
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    </script>
+<!-- DESENVOLVEDOR -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Copyright © <a class="w3-hover-opacity">Ello Tecnologia</a></p>
+
+</body>
+</html>
